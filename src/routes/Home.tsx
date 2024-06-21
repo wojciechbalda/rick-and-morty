@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export function Component()
 {
     return <ContentContainer>
-        <H1>Lorem ipsum dolor sit ame</H1>
-        <p className="text-center text-balance text-muted-foreground">W świecie pełnym aplikacji mobilnych i internetowych, fani popularnych seriali animowanych poszukują narzędzi, które umożliwią im jeszcze głębsze zanurzenie się w ukochanym uniwersum. Jednym z takich narzędzi jest aplikacja dedykowana serialowi "Rick and Morty", która pozwala użytkownikom sprawdzać różnorodne informacje związane z tą kultową produkcją.</p>
+        <H1>Rick and morty - website</H1>
+        <p className="text-center text-balance text-muted-foreground">In a world full of mobile and online applications, fans of popular animated series are looking for tools that will enable them to immerse themselves even deeper in their beloved universe. One of such tools is an application dedicated to the "Rick and Morty" series, which allows users to check various information related to this cult production.</p>
         <h2 className="text-center font-bold text-3xl">Sections</h2>
         <div className="grid gap-5">
             <Card href="/characters" text="Characters" />
